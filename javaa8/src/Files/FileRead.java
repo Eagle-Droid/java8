@@ -7,7 +7,7 @@ import java.io.IOException;
 public class FileRead {
     public static void main(String[] args) {
         try {
-            FileInputStream file =new FileInputStream("src/files/FileRead.java");
+            FileInputStream file =new FileInputStream("src/files/FileRead.java"); //citire caracter cu caracter
             int c;
             while((c = file.read())!=-1){
                 System.out.print((char)c);

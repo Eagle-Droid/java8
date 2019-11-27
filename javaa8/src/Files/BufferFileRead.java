@@ -8,7 +8,7 @@ import java.io.IOException;
 public class BufferFileRead {
     public static void main(String[] args) {
         try {
-            BufferedReader file = new BufferedReader(new FileReader("src/files/FileRead.java"));
+            BufferedReader file = new BufferedReader(new FileReader("src/files/FileRead.java"));//citire linie cu linie
             String line;
             while((line=file.readLine()) != null){
                 System.out.println(line);
